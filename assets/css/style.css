@@ -1,0 +1,50 @@
+body{
+    background: #cccccc;
+    margin: auto;
+}
+.mname{
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;    
+}
+a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.fcolor{
+    background: #777777;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+.page-header{
+    color: #4aaaa5;
+    font-size: 30px;
+}
+.pagecolor{
+    background: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.imgwidth{
+    width: 100%; 
+    
+    /* width: fit-content; */
+}
+.img1text {
+    position: absolute  ;
+    bottom: 20px;
+    /* left: 40px; */
+    float: left;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    overflow: auto;
+}
+
+/*to be deleted*/
+/* .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,.col-md-6{
+    border-style: solid;
+} */
