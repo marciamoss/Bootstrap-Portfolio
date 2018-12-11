@@ -22,6 +22,9 @@ a{
 .page-header{
     color: #4aaaa5;
     font-size: 30px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;    
+    font-weight: bold;
+    
 }
 .pagecolor{
     background: #ffffff;
@@ -30,13 +33,10 @@ a{
 
 .imgwidth{
     width: 100%; 
-    
-    /* width: fit-content; */
 }
 .img1text {
-    position: absolute  ;
-    bottom: 20px;
-    /* left: 40px; */
+    position: relative ;
+    bottom: 40px;
     float: left;
     background: #4aaaa5;
     color: #ffffff;
@@ -44,7 +44,3 @@ a{
     overflow: auto;
 }
 
-/*to be deleted*/
-/* .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,.col-md-6{
-    border-style: solid;
-} */
