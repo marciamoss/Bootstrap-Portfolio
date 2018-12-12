@@ -5,11 +5,14 @@ body{
 .mname{
     background: #4aaaa5;
     color: #ffffff;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;    
+    font-family: 'Georgia', Times, 'Times New Roman', serif;   
+    text-align: center; 
 }
 a{
     text-decoration: none;
     color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;  
+    font-weight: bold;
 }
 .fcolor{
     background: #777777;
@@ -47,4 +50,45 @@ a{
 .sbox {
     background: #4aaaa5;
     color: #ffffff;
+}
+
+/* media queries */
+@media only screen and (max-width: 576px) {
+
+    .navalign{
+        text-align: center;
     }
+}  
+ @media only screen and (min-width: 576px){
+
+    .navalign{
+        text-align: center;
+        
+    }
+} 
+@media only screen and (min-width: 768px) {
+
+    .navalign{
+        text-align: right;
+    }
+}  
+@media only screen and (min-width: 992px) {
+
+    .navalign{
+        text-align: right;
+    }
+}
+ @media only screen and (min-width: 1200px) {
+
+    .navalign{
+        text-align: right;
+    }
+} 
+
+
+
+
+ 
+
+
+ 
